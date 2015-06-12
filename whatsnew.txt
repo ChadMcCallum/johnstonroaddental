@@ -1,0 +1,173 @@
+WS_FTP LE for Windows 95/98/NT (X86 Version)
+Version 5.08 Release Notes for the following applications:
+  WS_FTP LE "classic" user interface
+
+Ipswitch, Inc.
+http://www.ipswitch.com
+
+In This File
+============
+  - WS_FTP LE and WS_FTP Pro Versions
+  - Installation 
+  - Installed Files
+  - Uninstalling
+  - Year 2000 Compliance 
+  - WS_FTP LE Description
+  - For More Information 
+  - Version 5.06 changes
+  - Version 5.07 changes
+  - Version 5.08 changes
+
+WS_FTP LE and WS_FTP Pro Versions
+=================================
+The WS_FTP "classic" user interface is available as both WS_FTP Pro 
+and WS_FTP Limited Edition (LE). WS_FTP LE is a shareware version of 
+WS_FTP that is made available free to non-commercial users. Read the 
+WS_FTP LE license for information about free use of the LE version.
+
+Note: The help file documents the WS_FTP Pro version, so if you are 
+using the LE version, you will not have some of the features documented.
+
+WS_FTP Pro offers the following features not found in the LE version:
+· You can choose between the "Classic" interface, which is similar to 
+  the WS_FTP LE interface, and the "Explorer" interface, which 
+  integrates with Windows Explorer.
+· Technical support is available for WS_FTP Pro.
+· You can use folders to manage your FTP sites.
+· You can do remote-to-remote transfers.
+· Includes WS_FTP Pro Utilities to manage files and automate transfers:
+    WS_FTP Find Utility -- lets users search an FTP site for files that 
+    match the user’s criteria.
+    WS_FTP Scripting Utility - automates the transfer and management of 
+    files by letting you create scripts that use basic FTP commands.
+    WS_FTP Synchronize Utility - allows you to "mirror" folders and 
+    directories between your PC and a remote FTP server.
+· You can perform multiple file transfers using WS_FTP Pro commands 
+  from a DOS prompt.
+· You can use the WS_FTP Pro Development Kit (available separately) to 
+  write custom file transfer applications to automate regular uploads 
+  or downloads. 
+
+See the Ipswitch web site at http://www.ipswitch.com for more information.
+
+
+Installation
+============
+To install WS_FTP LE, double-click the file you downloaded, accepting 
+    the defaults, and following the prompts on your screen.
+
+To install WS_FTP LE from a disk:
+  - Insert the WS_FTP LE disk into a disk drive.
+  - If you are running Windows 95, 98, or NT 4.0 or later, 
+    click the Start button and select Run. If you are running 
+    Windows NT 3.51, select Run from the File menu.
+  - Enter the drive letter followed by WS_FTPLE.exe. 
+    For example, a:WS_FTPLE.exe.
+  - Choose WS_FTP Installation, when asked.
+  - Follow the instructions on your screen.
+
+Installed Files
+===============
+
+  - complete.wav, connect.wav, error.wav - sound files to signal 
+    WS_FTP events
+  - ws_ftp95.exe - executable for LE classic interface
+  - ws_ftp.cnt - Table of Contents for online Help
+  - wsftp32.dll - dynamic link library for LE classic interface
+  - ws_ftp.hlp - Online Help topics
+  - uninst.isu - executable file for removing WS_FTP 
+  - WhatsNew.txt - Release Notes for all applications
+  - WS_FTP.ini - initialization file
+
+
+Uninstalling
+============
+The uninstall function removes all files associated with 
+    WS_FTP LE from your PC, including your configured sites. 
+    
+
+To uninstall WS_FTP LE, you can use the Uninstall application 
+    that is installed with the product. To do so, click 
+    the Start button, select WS_FTP LE, and then select 
+    WS_FTP LE Uninstall.
+
+To uninstall WS_FTP LE using the original disk:
+  - If you are running Windows 95, 98, or NT 4.0 or later, click the 
+    Start button and select Run. If you are running Windows NT 3.51, 
+    select Run from the File menu.
+  - Enter the appropriate drive letter (and path) followed by 
+    install.exe. For example, a:install.exe.
+  - Choose WS_FTP LE Uninstall, when asked.
+  - Follow the on-screen instructions.
+
+
+Year 2000 Compliance
+====================
+  WS_FTP LE 5.05 is Year 2000 compliant, meaning that neither performance
+  nor functionality are affected by dates prior to, during, and after 
+  the year 2000. For more detailed information see the following pages
+  on our web site: www.ipswitch.com/support/year2000.html.
+
+
+WS_FTP LE Description
+=====================
+  WS_FTP LE is a Windows-based file transfer client 
+  application that transfers files between a user’s local PC and 
+  another, remote computer system connected via a modem and telephone
+  lines or by a local-area network. With WS_FTP LE, users can connect
+  to any remote system that has a valid Internet address and an FTP 
+  server program, browse through directories and files, and transfer 
+  files between the two systems. In addition, users can create, change,
+  and remove directories and view, execute, rename, or delete files.
+
+  WS_FTP LE complies with the Windows sockets (Winsock) standard, 
+  allowing you to transfer files between a wide variety of systems, 
+  including Windows, OS/2, and UNIX systems.
+
+
+For more information...
+=======================
+On Classic
+  - Download the WS_FTP Pro User's Guide (.pdf file) from the Ipswitch
+    Web site: http://www.ipswitch.com/downloads/manuals.html
+
+  - Note: You will need the Adobe Acrobat Reader to view the .pdf file. 
+    You can also download the Acrobat Reader from the same 
+    location on our Web site.
+
+On Classic, see online Help for each tool. 
+
+On WS_FTP Pro, visit our Web site: http://www.ipswitch.com
+
+On WS_FTP Server, a separately purchased product, see the Ipswitch 
+    Product Catalog or visit our web site.
+
+On WS_FTP Pro Development Kit, a separately purchased product, see 
+    the Ipswitch Product Catalog or visit our web site.
+
+LE Version 5.06 changes
+=======================
+  WS_FTP LE
+  - Y2K corrections for non-compliant FTP servers (5.06)
+  - improved global flags setting to correct problems with firewall
+    handling
+  - added default transfer mode to session parameters 
+  - prompt for overwrite and preserve file date and time
+  - auto reget 
+  - modified VMS_MULTINET support
+  - modified VMS_UCX support (5.06)
+  - modified TANDEM support
+  - modified OS/9 support (5.06)
+  - UNIX host type changes for european sites
+  - Improved firewall support 
+  - Now automatically detects the following host types: AMOS TCP/IP, 
+    VxWorks, and GCOS 6 HVS AIX 
+  - Includes Unisys A-Series host type 
+
+LE Version 5.07 changes
+=======================
+  - IBM MVS changes
+
+LE Version 5.08 changes
+=======================
+  - AS/400 changes
